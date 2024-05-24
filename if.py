@@ -1,3 +1,4 @@
+import function as f
 if False:
     print("True")
     print("True")
@@ -17,3 +18,6 @@ sum=0
 for i in num:
     sum=sum+i
     print(sum)
+
+
+print(f.add(10,20))
