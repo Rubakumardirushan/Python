@@ -25,3 +25,53 @@ b={5,6,7,8,9,10,11,12,13,14}
 print(a^b)
 print(a|b)
 print(a&b)
+
+
+
+# dictinory
+# key value pair
+# key must be unique
+# key must be immutable
+# key must be string or number
+# key must be tuple
+# key must be set
+# key must be frozenset
+
+# value can be any data type
+dict1={'name':'dirushan','age':25,'city':'colombo'}
+print(dict1['age'])
+dict1['age']=262
+print(dict1['age'])
+del dict1['age']
+print(dict1)
+dict1['age']=25
+print(dict1)
+
+
+#range
+# range is a class
+# range is immutable
+# range is created by using range() function
+# range is created by using range comprehension
+# range is created by using :
+# range is created by using step
+# range is created by using negative value
+# range is created by using negative step
+# range is created by using negative value and negative step
+# range is created by using negative value and positive step
+# range is created by using positive value and negative step
+print(range(1,10))
+number=range(1,10)
+list1=list(number)
+tuple1=tuple(number)
+set1=set(number)
+print(list1)
+print(tuple1)
+print(set1)
+
+
+num="sccw"
+if num in number:
+    print("yes")
+else:
+    print("no")
